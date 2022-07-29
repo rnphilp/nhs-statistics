@@ -1,0 +1,38 @@
+{
+  "name": "@nhsstats",
+  "version": "0.1.0",
+  "description": "",
+  "workspaces": [
+    "web"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^25.7.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-yaml": "^0.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "lint": "EXTEND_ESLINT=true eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnphilp/nhs-statistics.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rnphilp/nhs-statistics/issues"
+  },
+  "homepage": "https://github.com/rnphilp/nhs-statistics#readme"
+}
